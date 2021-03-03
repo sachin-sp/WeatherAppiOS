@@ -11,12 +11,9 @@ class CitiesViewModel {
     
     var cities: [Weather] = []
     
-    func dataSetup() {
-        
+    init() {
     }
     
-    func fetchWeather() {
-        
-    }
+    
     
 }

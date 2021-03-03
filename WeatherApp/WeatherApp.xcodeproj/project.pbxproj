@@ -19,12 +19,13 @@
 		031F572325EF9DFA0050F463 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F572225EF9DFA0050F463 /* Weather.swift */; };
 		031F572D25EFA08D0050F463 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F572C25EFA08D0050F463 /* APIManager.swift */; };
 		031F573E25EFA2380050F463 /* CitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F573D25EFA2380050F463 /* CitiesViewModel.swift */; };
+		03F66C2925EFA4030065AF01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F66C2825EFA4030065AF01 /* Alamofire.framework */; };
+		03F66C2E25EFA44F0065AF01 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F66C2D25EFA44F0065AF01 /* UIFont+Extension.swift */; };
 		57494E8D1216894FDF462BD6 /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CB80ED2F25432793532CA3 /* Pods_WeatherApp.framework */; };
 		6DE0F8209174D68FED16EF79 /* Pods_WeatherApp_WeatherAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2932C9580EB230C381B8255 /* Pods_WeatherApp_WeatherAppUITests.framework */; };
 		B1DBC4C225EF846A00661F3D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DBC4C025EF846A00661F3D /* LoginVC.swift */; };
 		B1DBC4C325EF846A00661F3D /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC4C125EF846A00661F3D /* LoginVC.xib */; };
 		B1DBC4C825EF872400661F3D /* CommonCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DBC4C725EF872300661F3D /* CommonCode.swift */; };
-		B1DBC4CF25EF882000661F3D /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DBC4CE25EF882000661F3D /* UIFont+Extension.swift */; };
 		B1DBC4D425EF8A8B00661F3D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DBC4D325EF8A8B00661F3D /* UIColor+Extension.swift */; };
 		B1DBC4FA25EF941500661F3D /* XMPPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DBC4F925EF941500661F3D /* XMPPFramework.framework */; };
 		B1DBC4FF25EF949900661F3D /* XMPPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DBC4FE25EF949800661F3D /* XMPPController.swift */; };
@@ -67,6 +68,8 @@
 		031F572225EF9DFA0050F463 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		031F572C25EFA08D0050F463 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		031F573D25EFA2380050F463 /* CitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewModel.swift; sourceTree = "<group>"; };
+		03F66C2825EFA4030065AF01 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F66C2D25EFA44F0065AF01 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		2648D43E1E8D016BDA314DBD /* Pods_WeatherAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E21A7964D33D97601F8267 /* Pods-WeatherApp-WeatherAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp-WeatherAppUITests.release.xcconfig"; path = "Target Support Files/Pods-WeatherApp-WeatherAppUITests/Pods-WeatherApp-WeatherAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A4CB80ED2F25432793532CA3 /* Pods_WeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +77,6 @@
 		B1DBC4C025EF846A00661F3D /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B1DBC4C125EF846A00661F3D /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		B1DBC4C725EF872300661F3D /* CommonCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonCode.swift; sourceTree = "<group>"; };
-		B1DBC4CE25EF882000661F3D /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+Extension.swift"; path = "../../../../Radix_PMS_IOS/Radix_PMS_IOS/Radix_PMS_IOS/Extension/UIFont+Extension.swift"; sourceTree = "<group>"; };
 		B1DBC4D325EF8A8B00661F3D /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		B1DBC4E725EF93E900661F3D /* XMPPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XMPPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DBC4F925EF941500661F3D /* XMPPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XMPPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F66C2925EFA4030065AF01 /* Alamofire.framework in Frameworks */,
 				B1DBC4FA25EF941500661F3D /* XMPPFramework.framework in Frameworks */,
 				57494E8D1216894FDF462BD6 /* Pods_WeatherApp.framework in Frameworks */,
 			);
@@ -240,6 +243,7 @@
 		7E67C2FEF03832EE8CB1A8C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				03F66C2825EFA4030065AF01 /* Alamofire.framework */,
 				B1DBC4F925EF941500661F3D /* XMPPFramework.framework */,
 				B1DBC4E725EF93E900661F3D /* XMPPFramework.framework */,
 				A4CB80ED2F25432793532CA3 /* Pods_WeatherApp.framework */,
@@ -286,8 +290,8 @@
 		B1DBC4CC25EF87B800661F3D /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				B1DBC4CE25EF882000661F3D /* UIFont+Extension.swift */,
 				B1DBC4D325EF8A8B00661F3D /* UIColor+Extension.swift */,
+				03F66C2D25EFA44F0065AF01 /* UIFont+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -534,10 +538,10 @@
 				B1DBC4FF25EF949900661F3D /* XMPPController.swift in Sources */,
 				031F573E25EFA2380050F463 /* CitiesViewModel.swift in Sources */,
 				B1DBC4D425EF8A8B00661F3D /* UIColor+Extension.swift in Sources */,
-				B1DBC4CF25EF882000661F3D /* UIFont+Extension.swift in Sources */,
 				031F571925EF9D720050F463 /* CitiesVC.swift in Sources */,
 				031F572D25EFA08D0050F463 /* APIManager.swift in Sources */,
 				031F572325EF9DFA0050F463 /* Weather.swift in Sources */,
+				03F66C2E25EFA44F0065AF01 /* UIFont+Extension.swift in Sources */,
 				031F56D525EF76690050F463 /* WeatherApp.xcdatamodeld in Sources */,
 				B1DBC4C225EF846A00661F3D /* LoginVC.swift in Sources */,
 				031F56CB25EF76690050F463 /* AppDelegate.swift in Sources */,
