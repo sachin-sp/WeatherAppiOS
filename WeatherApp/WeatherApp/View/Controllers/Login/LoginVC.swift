@@ -82,6 +82,9 @@ extension LoginVC: XMPPStreamDelegate {
 
     func xmppStreamDidAuthenticate(_ sender: XMPPStream) {
         // Success
+        let vc = CitiesVC()
+        let nav = UINavigationController(rootViewController: vc)
+        CommonCode.shared.switchRootViewController(rootViewController: nav)
     }
     
     func xmppStream(_ sender: XMPPStream, didNotAuthenticate error: DDXMLElement) {

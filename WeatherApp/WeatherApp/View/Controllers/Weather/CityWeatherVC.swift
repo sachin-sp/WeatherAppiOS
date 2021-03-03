@@ -9,9 +9,12 @@ import UIKit
 
 class CityWeatherVC: UIViewController {
 
+    var weather: Weather?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = .white
+        navigationItem.title = "Weather"
     }
     
 
