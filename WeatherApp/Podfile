@@ -9,6 +9,7 @@ target 'WeatherApp' do
 
    pod 'XMPPFramework'
    pod 'Alamofire'
+   pod 'IQKeyboardManagerSwift'
 
 
 

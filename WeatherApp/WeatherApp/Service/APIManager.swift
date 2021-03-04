@@ -33,7 +33,7 @@ class APIManager: NSObject {
     
     func fetchWeather(completionHandler: @escaping (_ result: [String: Any]?, _ error: Error?) -> Void) {
         
-        let urlString = "https://api.openweathermap.org/data/2.5/find?lat=31.086286&lon=76.452690&cnt=10&appid=2699bd1f1e79cd9206dd756e64cec43d"
+        let urlString = "https://api.openweathermap.org/data/2.5/find?lat=40.7579747&lon=-73.9877313&units=metric&cnt=10&appid=2699bd1f1e79cd9206dd756e64cec43d"
         
         sessionManager.request(urlString, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: nil)
         .response(

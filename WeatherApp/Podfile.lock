@@ -4,6 +4,7 @@ PODS:
   - CocoaLumberjack (3.7.0):
     - CocoaLumberjack/Core (= 3.7.0)
   - CocoaLumberjack/Core (3.7.0)
+  - IQKeyboardManagerSwift (6.5.6)
   - KissXML (5.3.1):
     - KissXML/All (= 5.3.1)
   - KissXML/Additions (5.3.1):
@@ -23,6 +24,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - IQKeyboardManagerSwift
   - XMPPFramework
 
 SPEC REPOS:
@@ -30,6 +32,7 @@ SPEC REPOS:
     - Alamofire
     - CocoaAsyncSocket
     - CocoaLumberjack
+    - IQKeyboardManagerSwift
     - KissXML
     - libidn
     - XMPPFramework
@@ -38,10 +41,11 @@ SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
   libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
   XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
 
-PODFILE CHECKSUM: f4c7414027c300322be6bc4462440a1423480e0e
+PODFILE CHECKSUM: 90bb28203f3d873261ded59b2d9b682b3001f6e3
 
 COCOAPODS: 1.10.1

@@ -11,6 +11,8 @@ let cellId = "CELL_ID"
 
 class CitiesVC: UIViewController {
 
+    //MARK: Properties
+    
     var cityViewModel: CitiesViewModel?
     
     lazy var tableView: UITableView = {
@@ -21,14 +23,30 @@ class CitiesVC: UIViewController {
         return tv
     }()
     
+}
+
+extension CitiesVC {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         navigationItem.title = "Cities"
         view.addSubview(tableView)
+        self.cityViewModel = CitiesViewModel(weatherData: nil)
         fetchWeather()
       
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if let indexPath = self.tableView.indexPathForSelectedRow {
+            self.tableView.deselectRow(at: indexPath, animated: true)
+        }
+    }
+    
+}
+
+extension CitiesVC {
     
     func fetchWeather() {
         APIManager.shared.fetchWeather { (response, error) in
@@ -44,7 +62,6 @@ class CitiesVC: UIViewController {
             }
         }
     }
-    
 }
 
 extension CitiesVC: UITableViewDataSource {
@@ -60,9 +77,6 @@ extension CitiesVC: UITableViewDataSource {
         return cell
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50.0
-    }
 }
 
 extension CitiesVC: UITableViewDelegate {
@@ -72,5 +86,9 @@ extension CitiesVC: UITableViewDelegate {
         let vc = CityWeatherVC()
         vc.weather = weather
         navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 50.0
     }
 }
